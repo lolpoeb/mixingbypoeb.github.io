@@ -293,3 +293,38 @@ span {
     background-color: rgb(177, 255, 188);
     color: black;
 }
+.songs{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.portsong{
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: black 0px 0px 10px;
+}
+.songartist{
+    font-family: "Indie Flower", cursive;
+    font-weight: 600;
+    font-size: 1.8em;
+    color: rgb(177, 255, 188);
+}
+.songname{
+    font-family: "Kanit", sans-serif;
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+.contr{
+    font-family: "Kanit", sans-serif;
+    margin-bottom: 10px;
+}
+.artistsong{
+    display: flex;
+}
